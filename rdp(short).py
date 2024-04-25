@@ -27,3 +27,9 @@ if S() and i == len(s):
     print("String is accepted")
 else:
     print("String is not accepted")
+
+#Enter the string: abbc
+#Grammar:
+#S -> aAc
+#A -> b | bA
+#B -> b
